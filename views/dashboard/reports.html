@@ -1,0 +1,23 @@
+<div>
+	<h2>Reports</h2>
+	<div class="jumbotron">
+		<div class="container">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Subject</th>
+						<th>Grade</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="record in records">
+						<th scope="row">1</th>
+						<td>{{record.title}}</td>
+						<td>{{record.score}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
